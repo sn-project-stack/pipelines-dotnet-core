@@ -27,14 +27,3 @@ jobs:
 
       - name: Test
         run: dotnet test --no-build --verbosity normal
-```
-
----
-
-**4.** The filename at the top should read:
-```
-.github/workflows/main.yml
-```
-Change it to:
-```
-.github/workflows/dotnet.yml
